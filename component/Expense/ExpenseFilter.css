@@ -1,0 +1,22 @@
+.expense-filter{
+    background-color: #8a8a8a;
+    height: 50px;
+
+}
+.expense-filter_control{
+
+}
+.expense-filter_control > label{
+
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding: 13px;
+    font-weight: bold;
+}
+
+.expense-filter_control > select{
+    float: right;
+    font-size: 18px;
+    margin: 10px 16px 0px 0px;
+}

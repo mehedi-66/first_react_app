@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 468px;
+    height: 80px;
+    margin: 10px auto;
+    background-color: darkgrey;
+    border-radius: 4px;
+   
+}
+.heading{
+    font-size: 25px;
+    background-color: gold;
+}
+.date-item{
+    margin: 10px 2px 0px 9px;
+    float: left;
+    width: 73px;
+    border: 2px solid white;
+    background-color: #464343;
+    color: #adb9c7;
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+}
+
+.name-item{
+    float: left;
+    margin: 26px 0px 1px 2px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+.price-item{
+    float: right;
+    width: 81px;
+    border: 2px solid #e0e0e0;
+    margin: 26px 10px 1px 1px;
+    background-color: #332ca5;
+    font-weight: bold;
+    color: white;
+    border-radius: 3%;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+/* we can use media query for verity devices */

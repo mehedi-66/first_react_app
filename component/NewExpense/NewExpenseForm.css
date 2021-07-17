@@ -1,0 +1,33 @@
+.new-expense_controls{
+    display: flex;
+    flex-direction: column;
+}
+.new-expense_control {
+
+}
+.new-expense_control label {
+    font-size: 18px;
+    font-weight: bold;
+}
+.new-expense_control input{
+    margin: 11px 19px;
+    border: 1px solid #504f4f;
+    padding: 3px;
+    font-size: 14px;
+    width: 160px;
+
+}
+.new-expense_actions button{
+    width: 122px;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    float: right;
+    border: 2px solid whitesmoke;
+    color: white;
+    background-color: #5b4cdc;
+    margin-right: 12px;
+}
